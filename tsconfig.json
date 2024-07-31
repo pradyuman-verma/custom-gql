@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "rootDir": ".",
+    "strict": false,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "noEmit": false,
+    "outDir": "dist",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"],
+      "@": ["/"]
+    }
+    // "typeRoots": ["./node_modules/@types", "./@types"],
+    // "types": ["mocha", "chai", "node"]
+  },
+  "include": ["src/**/*", "test/customHandler.ts"]
+}
